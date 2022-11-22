@@ -5,8 +5,27 @@ import Covid from "../Sections/covid"
 
 const CardsRecursos = () => (
    <div>
-  <div className="ed-grid caja-fija">   
-      <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3 fijo">
+   
+   <div className="to-l fijo menu-recu" id="main-menu-recu">Listado de Recursos</div>
+
+   <div className="small main-menu showColr-recu"  id="main-menus-recu" >
+  <div className="ed-grid s-grid-2 fijo " id="recu">
+      
+      <a className="button light-color " href="#Lineamientos">Lineamientos</a>
+      <a className="button light-color " href="#Memos">Memos</a>
+      <a className="button light-color " href="#extensiones">Extensiones</a>
+      <a className="button light-color s-cols-1 m-cols-1"href="#Presentaciones">Presentaciones</a>
+      <a className="button light-color " href="#Manuales">Manuales</a>
+      <a className="button light-color " href="#Circulares">Circulares</a>
+      <a className="button light-color " href="#Notas">Notas/Res.</a>
+      <a className="button light-color " href="#Plantillas">Formularios</a>
+      
+   </div>
+   </div>
+
+  <div className="ed-grid caja-fija medio"> 
+
+         <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-4 fijo medio">
       
          <a className="button light-color " href="#Lineamientos">Lineamientos</a>
          <a className="button light-color " href="#Memos">Memos</a>
@@ -118,7 +137,12 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Lineamientos" className="myanchor"></a> 
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2> 
+
+      <RecursosCard nombre="Lineamientos Técnicos" 
+      subt="3er Refuerzo Covid"
+      image="https://drive.google.com/uc?export=download&id=1_obQxbZmGyH9InceutsGdYD0mn_bGFdQ" 
+      link="https://drive.google.com/file/d/1st9JiEg_uSMq_ACV1J3kwciyh8jakCYz/view?usp=sharing"/>          
       
       <RecursosCard nombre="Lineamientos Técnicos." 
       subt="Sarampion, Rubeola, Paperas y Poliomielitis."
@@ -344,6 +368,10 @@ const CardsRecursos = () => (
       <a name="Circulares" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
 
+      <RecursosCard nombre="Circular 3er Refuerzo" 
+      subt="Covid"
+      image="https://drive.google.com/uc?export=download&id=1uJKAgmSVz4DMQ1bxvgTdMacD8xQs67E7" 
+      link="https://drive.google.com/file/d/1UIX2fH4AH7gg20Sk0ZnYHLQoeMF90S7T/view?usp=sharing"/>
                
       <RecursosCard nombre="Moderna Pediátrica." 
       subt="6 m a 2 años."

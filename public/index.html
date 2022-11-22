@@ -17,6 +17,8 @@
   </head>
   <body>
     <div id="root"></div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="SAlert.js"></script>
     
   </body>
   <script>
@@ -72,7 +74,9 @@
         
     }, 4000);
     </script>
-  <script>
+    
+    
+    <script>
     const BtMenu = document.getElementById("main-menu-toggles");
     const navM = document.getElementById ("navM")
     const menu = document.getElementById("main-menus");
@@ -85,6 +89,22 @@
     
     BtMenu.addEventListener("click", () => {
         menu.classList.toggle("show");
+});
+</script>
+
+<script>
+    const despliegaMenu = document.getElementById("main-menu-recu");
+    const recu = document.getElementById ("recu")
+    const menuRecu = document.getElementById("main-menus-recu");
+
+    recu.addEventListener("click", () => {
+        menuRecu.classList.remove("show-recu");
+});
+</script>
+  <script>
+    
+    despliegaMenu.addEventListener("click", () => {
+        menuRecu.classList.toggle("show-recu");
 });
 </script>
 

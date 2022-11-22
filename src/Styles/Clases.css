@@ -85,11 +85,51 @@ h2 {
     opacity: 0.8;
   }
 
+  .show-recu {
+    z-index: 2000;
+    left: 1%;    
+    background-color: #64922f;
+    position: relative; 
+    border-radius: 10px;
+    box-shadow: -4px -3px 3px black;
+    opacity: 0.8;
+  }
+
+  .menu-recu{
+    margin-top: 2%;
+    padding: 1%;
+    padding-left: 5%;
+    background-color: #9ecc3b;
+    font-size: 0.9em;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    text-shadow: -2px 2px black;
+    opacity: 70%;
+}
+
 .showColr {    
     
     background-color: #64922f;
     position: absolute;
     justify-content: left;
+    height: auto;
+    transition:all;
+    transition-duration: 0.5s;
+    font-size: 0.9em;
+    width: auto;
+    overflow-x: hidden;
+    padding: auto;
+    
+  }
+
+  .showColr-recu {    
+    max-width: 0;
+    background-color: #64922f;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
     height: auto;
     transition:all;
     transition-duration: 0.5s;
