@@ -6,10 +6,10 @@ import Covid from "../Sections/covid"
 const CardsRecursos = () => (
    <div>
    
-   <div className="to-l fijo menu-recu" id="main-menu-recu">Listado de Recursos</div>
+   <div className="to-l menu-recu small " id="main-menu-recu">Listado de Recursos</div>
 
-   <div className="small main-menu showColr-recu"  id="main-menus-recu" >
-  <div className="ed-grid s-grid-2 fijo " id="recu">
+   <div className="small main-menu showColr-recu"  id="menu-recu" >
+  <div className="ed-grid s-grid-2 fijo showColr-menu" id="recu">
       
       <a className="button light-color " href="#Lineamientos">Lineamientos</a>
       <a className="button light-color " href="#Memos">Memos</a>
@@ -41,7 +41,7 @@ const CardsRecursos = () => (
   
 
   
-   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6 small-espacio">
    
    <a name="extensiones" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>   
@@ -456,6 +456,11 @@ const CardsRecursos = () => (
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Plantillas" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Formularios y Planillas </h2>           
+
+      <RecursosCard nombre="Formulario Desvio de Vacunas" 
+   subt="Nuevo Dic-2022"
+   image="https://drive.google.com/uc?export=download&id=1iRA1b4Ih6jkWs4dETlGkAwCXFqMdYj8L"
+   link="https://docs.google.com/document/d/1nul-WuqVFE1kUArYwWXxKOFGFT158Lp6/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
 
       <RecursosCard nombre="Nomivac" 
    subt="Alta usuario"

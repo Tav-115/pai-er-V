@@ -74,6 +74,7 @@ h2 {
     text-align: center;
 }
 
+ /* Menu desplegable lateral */
 
 .show {
     z-index: 2000;
@@ -83,20 +84,13 @@ h2 {
     border-radius: 10px;
     box-shadow: -4px -3px 3px black;
     opacity: 0.8;
-  }
+}
 
-  .show-recu {
-    z-index: 2000;
-    left: 1%;    
-    background-color: #64922f;
-    position: relative; 
-    border-radius: 10px;
-    box-shadow: -4px -3px 3px black;
-    opacity: 0.8;
-  }
+ /* Menu desplegable recusos */
 
-  .menu-recu{
+.menu-recu{
     margin-top: 2%;
+    margin-left: 2%;
     padding: 1%;
     padding-left: 5%;
     background-color: #9ecc3b;
@@ -107,10 +101,17 @@ h2 {
     font-weight: 900;
     text-shadow: -2px 2px black;
     opacity: 70%;
+    position: fixed;
+    z-index: 10;
 }
 
+
+.menu-recu:hover{
+    background-color: #64922f;
+
+}
+ /* Menu desplegable lateral */
 .showColr {    
-    
     background-color: #64922f;
     position: absolute;
     justify-content: left;
@@ -122,26 +123,38 @@ h2 {
     overflow-x: hidden;
     padding: auto;
     
-  }
+}
 
-  .showColr-recu {    
-    max-width: 0;
-    background-color: #64922f;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+ /* Menu desplegable recursos */
+.showColr-recu {
+    left: -100%;
+    height: 0;
     transition:all;
     transition-duration: 0.5s;
     font-size: 0.9em;
-    width: auto;
-    overflow-x: hidden;
-    padding: auto;
-    
-  }
+    width: 1%;
+    overflow:hidden;
+}
+ /* Menu desplegable recursos */
+.showColr-menu{
+    width: 90%;
+    opacity: 0.85;
+}
 
-.NavR{
-    
+   /* Menu desplegable recusos */
+.show-recu {
+    z-index: 2000;
+    height: auto;
+    left: 1%;    
+    background-color: #64922f;
+    position: absolute; 
+    border-radius: 10px;
+    box-shadow: -4px -3px 3px black;
+    left: 1%;
+}
+
+ /* Menu desplegable lateral */
+.NavR{    
     position: relative;
     border-radius: 10px;    
     align-items: center;
@@ -150,17 +163,16 @@ h2 {
 
     font-weight: 900;
 }
-
+ /* Menu desplegable lateral */
 .NavR:hover {
       background-color: #9ecc3b;
       text-shadow: 1px 1px black;    
   }
 
-.link {
-    
+.link {    
     height: 30%;
-      width: 100%;
-  }
+    width: 100%;
+}
 
 
 .Vacio{

@@ -21,6 +21,7 @@
     <script src="SAlert.js"></script>
     
   </body>
+          <!-- SLider -->
   <script>
   
 
@@ -75,8 +76,9 @@
     }, 4000);
     </script>
     
-    
-    <script>
+    <!-- Menu desplegable lateral -->
+
+  <script>
     const BtMenu = document.getElementById("main-menu-toggles");
     const navM = document.getElementById ("navM")
     const menu = document.getElementById("main-menus");
@@ -92,20 +94,25 @@
 });
 </script>
 
+<!-- Menu desplegable recursos -->
+
 <script>
     const despliegaMenu = document.getElementById("main-menu-recu");
     const recu = document.getElementById ("recu")
-    const menuRecu = document.getElementById("main-menus-recu");
+    const menuRecu = document.getElementById("menu-recu");
 
-    recu.addEventListener("click", () => {
-        menuRecu.classList.remove("show-recu");
-});
-</script>
-  <script>
-    
     despliegaMenu.addEventListener("click", () => {
         menuRecu.classList.toggle("show-recu");
 });
+
+</script>
+
+<script>
+
+recu.addEventListener("click", () => {
+        menuRecu.classList.remove("show-recu");
+});
+
 </script>
 
 
