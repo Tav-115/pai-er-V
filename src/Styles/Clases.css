@@ -134,6 +134,10 @@ h2 {
     font-size: 0.9em;
     width: 1%;
     overflow:hidden;
+    -webkit-transition:all;
+    -moz-transition:all;
+    -ms-transition:all;
+    -o-transition:all;
 }
  /* Menu desplegable recursos */
 .showColr-menu{
@@ -144,13 +148,18 @@ h2 {
    /* Menu desplegable recusos */
 .show-recu {
     z-index: 2000;
-    height: auto;
-    left: 1%;    
+    left: 1%;
     background-color: #64922f;
-    position: absolute; 
+    position: absolute;
     border-radius: 10px;
     box-shadow: -4px -3px 3px black;
     left: 1%;
+    transition: all;
+    transition-duration: 1s;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
 }
 
  /* Menu desplegable lateral */

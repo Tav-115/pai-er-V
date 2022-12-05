@@ -101,20 +101,13 @@
     const recu = document.getElementById ("recu")
     const menuRecu = document.getElementById("menu-recu");
 
-    despliegaMenu.addEventListener("click", () => {
+    recu.addEventListener("click",() => {
+        menuRecu.classList.remove("show-recu");
+      });
+
+    despliegaMenu.addEventListener('click', function() {
         menuRecu.classList.toggle("show-recu");
 });
-
 </script>
-
-<script>
-
-recu.addEventListener("click", () => {
-        menuRecu.classList.remove("show-recu");
-});
-
-</script>
-
-
 
 </html>
