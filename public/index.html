@@ -17,10 +17,22 @@
   </head>
   <body>
     <div id="root"></div>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="SAlert.js"></script>
     
   </body>
+
+  <script> 
+    const despliegaMenu = document.getElementById("main-menu-recu");
+      const recu = document.getElementById ("recu")
+      const menuRecu = document.getElementById("menu-recu");
+    
+      recu.addEventListener("click",() => {
+          menuRecu.classList.remove("show-recu");
+      });
+    
+      despliegaMenu.addEventListener('click', () => {
+          menuRecu.classList.toggle("show-recu");
+    });
+    </script>
           <!-- SLider -->
   <script>
   
@@ -91,22 +103,6 @@
     
     BtMenu.addEventListener("click", () => {
         menu.classList.toggle("show");
-});
-</script>
-
-<!-- Menu desplegable recursos -->
-
-<script>
-    const despliegaMenu = document.getElementById("main-menu-recu");
-    const recu = document.getElementById ("recu")
-    const menuRecu = document.getElementById("menu-recu");
-
-    recu.addEventListener("click",() => {
-        menuRecu.classList.remove("show-recu");
-      });
-
-    despliegaMenu.addEventListener('click', function() {
-        menuRecu.classList.toggle("show-recu");
 });
 </script>
 
