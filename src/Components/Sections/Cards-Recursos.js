@@ -5,7 +5,7 @@ import Covid from "../Sections/covid"
 
 const CardsRecursos = () => (
    <div>
-   <div className="to-l menu-recu small" id="main-menu-recu">Listado de Recursos</div>
+   <div className="to-l main-menu-recu small" id="main-menu-recu">Listado de Recursos</div>
 
    <div className="small main-menu showColr-recu"  id="menu-recu" >
   <div className="ed-grid s-grid-2 fijo showColr-menu" id="recu">
