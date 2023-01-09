@@ -45,13 +45,28 @@ const CardsRecursos = () => (
    <a name="extensiones" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas</h2>   
 
-   <RecursosCard nombre="Extención Pfizer" 
+      <RecursosCard nombre="Autorización Extensión" 
+   subt="Pfizer 29-12-22"
+   image="https://drive.google.com/uc?export=download&id=16np4KK97agcU0MZrW7E_ien2Xe1RW-RC" 
+   link="https://drive.google.com/file/d/1jDP_L-LxVYrQHqDtj-47X4F2z_CGAUII/view?usp=sharing"/>
+
+   <RecursosCard nombre="Extensión Pfizer" 
+   subt="Pediátrica 30-12-22"
+   image="https://drive.google.com/uc?export=download&id=14ft4hh704iJiWPg83jzMxq8s_gbsjWmM" 
+   link="https://drive.google.com/file/d/1PZV0jPzxQHTh8hNJpEXBvEDJ5-EYuD6T/view?usp=sharing"/>
+   
+   <RecursosCard nombre="Extensión Pfizer" 
+   subt="Adulto 30-12-22"
+   image="https://drive.google.com/uc?export=download&id=13Ap3Ry3BGUDjRwQQygP3kJ6DSlcUz-t8" 
+   link="https://drive.google.com/file/d/1nMARpQOCwD8KUDrQNI_bdXN61SJWHF45/view?usp=sharing"/> 
+
+   <RecursosCard nombre="Extensión Pfizer" 
    subt="8-9-22"
    image="https://drive.google.com/uc?export=download&id=1_TEr1nVpQDDz9bFFGqIw3M9uqoqoIVOd"
    link="https://drive.google.com/file/d/1vWrWki9fQ-1sjaHy88G39Z8Hfjtpo717/view?usp=sharing"/>
         
 
-   <RecursosCard nombre="Recopilación Extenciones de Vctos." 
+   <RecursosCard nombre="Recopilación Extensiones de Vctos." 
    subt="Vacunas Covid al 1-9-22 (archivo .rar)"
    image="https://drive.google.com/uc?export=download&id=1DX8RfK6EiNKP5bmln_rzzc86yaw74mGm" 
    pages="1"
@@ -454,7 +469,12 @@ const CardsRecursos = () => (
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Plantillas" className="myanchor"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Formularios y Planillas </h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Formularios y Planillas </h2> 
+
+      <RecursosCard nombre="Carnet Fiebre Amarilla" 
+   subt="Para Imprimir"
+   image="https://drive.google.com/uc?export=download&id=1WKEgjQa6nQYvXeuETOzYt6RjTquZ69Sv"
+   link="https://drive.google.com/file/d/1H0ekOeViD_ASjEiq8JAJOnJvg-rInMNQ/view?usp=sharing"/>          
 
       <RecursosCard nombre="Formulario Desvio de Vacunas" 
    subt="Nuevo Dic-2022"

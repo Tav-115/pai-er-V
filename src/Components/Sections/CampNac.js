@@ -10,6 +10,11 @@
     
     
     <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-5 form">
+    
+    <RecursosCard nombre="Extensión de Campáña" 
+                subt="SRPP 29-12-22"
+                image="https://drive.google.com/uc?export=download&id=14pRQ0YHYYx-lrygzai85lhnFGI4i9U5U" 
+                link="https://drive.google.com/file/d/1R6U0lLKix8nccknWoZJ5TtxRMUBtbLwS/view?usp=sharing"/> 
 
     <RecursosCard nombre="Extensión de Campáña" 
                 subt="Campaña SRPP"
