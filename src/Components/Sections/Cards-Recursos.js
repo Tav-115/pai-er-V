@@ -5,7 +5,7 @@ import Covid from "../Sections/covid"
 
 const CardsRecursos = () => (
    <div>
-   <div className="to-l main-menu-recu small" id="main-menu-recu">Listado de Recursos</div>
+   {/* <div className="to-l main-menu-recu small" id="main-menu-recu">Listado de Recursos</div> */}
 
    <div className="small main-menu showColr-recu"  id="menu-recu" >
   <div className="ed-grid s-grid-2 fijo showColr-menu" id="recu">
@@ -244,6 +244,11 @@ const CardsRecursos = () => (
       <a name="Memos" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'>Memos</h2>           
 
+      <RecursosCard nombre="Memo uso Mod Pediátrica" 
+   subt="Dosis/Grupo poblacional"
+   image="https://drive.google.com/uc?export=download&id=1v0hUjwWRpb1duPcGEAIVggIDFd1ATtrh"
+   link="https://drive.google.com/file/d/1-kyniBH7hcHXapYnP5EBJtzfQGtFAlXu/view?usp=sharing"/>
+
       <RecursosCard nombre="Memorándum - Covid" 
    subt="Intervalo aplicación dosis refuerzo."
    image="https://drive.google.com/uc?export=download&id=1dAIJkENUj7J7DvNXJvgW1ZOIIekVzGT_" 
@@ -382,17 +387,21 @@ const CardsRecursos = () => (
       <a name="Circulares" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
 
+      <RecursosCard nombre="Circular Refuerzos" 
+      subt="6 Meses a 17 años"
+      image="https://drive.google.com/uc?export=download&id=1-hnxlJpeDEoJ797qgqAKvUuKF9lVxu7s"
+      link="https://drive.google.com/file/d/1F_g0Ud3AKaMCinbOCp1jBP9QYUPOb4DS/view?usp=sharing"/>
+
       <RecursosCard nombre="Circular 3er Refuerzo" 
       subt="Covid"
       image="https://drive.google.com/uc?export=download&id=1uJKAgmSVz4DMQ1bxvgTdMacD8xQs67E7" 
       link="https://drive.google.com/file/d/1UIX2fH4AH7gg20Sk0ZnYHLQoeMF90S7T/view?usp=sharing"/>
-               
+
       <RecursosCard nombre="Moderna Pediátrica." 
       subt="6 m a 2 años."
       image="https://drive.google.com/uc?export=download&id=1z_u4b1pXlOzb68knjpREJ4myAb4ZB5Gv"
       pages="3"
       link="https://drive.google.com/file/d/1rx77OEgbHV_oJAlDpgnYTZn6fRCXBAmL/view?usp=sharing"/>
-       
 
       <RecursosCard nombre="2do Refuerzo" 
    subt="18-04-2022"
@@ -432,7 +441,6 @@ const CardsRecursos = () => (
    pages="1"
    link="https://drive.google.com/file/d/1-CAOmY0rxdU6PLft4RXa1ERM-xTEwGs1/view?usp=sharing"/>
 
-                   
    </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Notas" className="myanchor"></a>
@@ -464,7 +472,7 @@ const CardsRecursos = () => (
    pages="3"
    link="https://drive.google.com/file/d/1p5gT_x1aNWqX9DN8Nv_uJh1aOwrO-KcY/view?usp=sharing"/>
 
-                      
+
    </div>
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
@@ -543,7 +551,7 @@ const CardsRecursos = () => (
    pages="5"
    link="https://drive.google.com/file/d/1XbX5GVAWas2nOwUOjr8ckXEOCds01YHk/view?usp=sharing"/>
 
-                      
+
    </div>
    
    <CampNac/>

@@ -5,19 +5,18 @@ const Slider = () => (
         <div className="slider " id="slider">
 
         <div className="slider--section box-shadow">         
-                <RecursosCard nombre="Carnet Fiebre Amarilla" 
-                subt="Para Imprimir"
-                image="https://drive.google.com/uc?export=download&id=1WKEgjQa6nQYvXeuETOzYt6RjTquZ69Sv"
-                link="https://drive.google.com/file/d/1H0ekOeViD_ASjEiq8JAJOnJvg-rInMNQ/view?usp=sharing"/>
+                <RecursosCard nombre="Memo uso Mod Pediátrica" 
+                subt="Dosis/Grupo poblacional"
+                image="https://drive.google.com/uc?export=download&id=1v0hUjwWRpb1duPcGEAIVggIDFd1ATtrh"
+                link="https://drive.google.com/file/d/1-kyniBH7hcHXapYnP5EBJtzfQGtFAlXu/view?usp=sharing"/>
         </div>
 
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Extensión de Campáña" 
-                subt="SRPP 29-12-22"
-                image="https://drive.google.com/uc?export=download&id=14pRQ0YHYYx-lrygzai85lhnFGI4i9U5U" 
-                link="https://drive.google.com/file/d/1R6U0lLKix8nccknWoZJ5TtxRMUBtbLwS/view?usp=sharing"/> 
+        <div className="slider--section box-shadow">         
+                <RecursosCard nombre="Circular Refuerzos" 
+                subt="6 Meses a 17 años"
+                image="https://drive.google.com/uc?export=download&id=1-hnxlJpeDEoJ797qgqAKvUuKF9lVxu7s"
+                link="https://drive.google.com/file/d/1F_g0Ud3AKaMCinbOCp1jBP9QYUPOb4DS/view?usp=sharing"/>
         </div>
-
 
         <div className="slider--section box-shadow">
                 <RecursosCard nombre="Extensión Pfizer" 
