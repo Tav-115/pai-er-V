@@ -296,6 +296,11 @@ const CardsRecursos = () => (
    <a name="Manuales" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
 
+      <RecursosCard nombre="Manual Almacenamiento de Vacunas" 
+   subt="Nivel Operativo"
+   image="https://drive.google.com/uc?export=download&id=11F8IyTl-P2iO4zfSU-gkX0kQll2GQVIc" 
+   link="https://drive.google.com/file/d/1USMUMsyP14fu9omKNSftyfO7n6myQziL/view?usp=sharing"/> 
+
       <RecursosCard nombre="Sociedad Arg. de Pediatría." 
    subt="Vac 6 m a 3 años."
    image="https://drive.google.com/uc?export=download&id=1QoiIA4ttQPCCKoVoU2D6DxqFHwlDixJ0"

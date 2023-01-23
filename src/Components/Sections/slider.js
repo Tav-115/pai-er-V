@@ -3,6 +3,13 @@ import RecursosCard from "./Recursos-card"
 const Slider = () => (
      <div className="container-slider">
         <div className="slider " id="slider">
+                
+        <div className="slider--section box-shadow">
+                <RecursosCard nombre="Manual Almacenamiento de Vacunas" 
+                subt="Nivel Operativo"
+                image="https://drive.google.com/uc?export=download&id=11F8IyTl-P2iO4zfSU-gkX0kQll2GQVIc" 
+                link="https://drive.google.com/file/d/1USMUMsyP14fu9omKNSftyfO7n6myQziL/view?usp=sharing"/> 
+        </div>
 
         <div className="slider--section box-shadow">         
                 <RecursosCard nombre="Memo uso Mod Pediátrica" 
@@ -25,15 +32,6 @@ const Slider = () => (
                 link="https://drive.google.com/file/d/1PZV0jPzxQHTh8hNJpEXBvEDJ5-EYuD6T/view?usp=sharing"/> 
         </div>
 
-        <div className="slider--section box-shadow">
-                <RecursosCard nombre="Extensión Pfizer" 
-                subt="Adulto 30-12-22"
-                image="https://drive.google.com/uc?export=download&id=13Ap3Ry3BGUDjRwQQygP3kJ6DSlcUz-t8" 
-                link="https://drive.google.com/file/d/1nMARpQOCwD8KUDrQNI_bdXN61SJWHF45/view?usp=sharing"/> 
-        </div>
-
-
-        
 </div>
 
 </div>
