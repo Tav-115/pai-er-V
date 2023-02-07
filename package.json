@@ -27,7 +27,7 @@
     "build:staging": "env-cmd -f .env.staging npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-	"eject": "react-scripts eject"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +49,7 @@
   },
   "main": "index.js",
   "devDependencies": {
-    "netlify-cli": "^10.1.0",
+    "netlify-cli": "^10.18.0",
     "postcss": "^8.4.21"
   },
   "keywords": [],
