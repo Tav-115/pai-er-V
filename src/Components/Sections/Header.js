@@ -5,14 +5,14 @@ const Header = () => (
     <header className="main-header">
       <div className="ed-grid s-grid-10 m-grid-6 lg-grid-6">
         <div className="m-cols-1 img-container medio">
-          <a href="/"><img src={`${process.env.PUBLIC_URL}/Assets/images/LogoPAI.png`} 
+          <a href="/"><img src={`${process.env.PUBLIC_URL}/Assets/images/LogoPAI.png`} alt="nose"
         />Inicio
         </a>
         </div>
         <div className="s-ratio-16-9 s-cols-2 img-container small icono">
           <a href="/">
           <img 
-           src="https://3.bp.blogspot.com/-gVljr1kHFTI/Xt-XxEOtVUI/AAAAAAAAAT8/mUDkQ-9yb0033g3BKkGHm4LRe7eajWvcQCK4BGAYYCw/s150/Logo.png"/>
+           src="https://3.bp.blogspot.com/-gVljr1kHFTI/Xt-XxEOtVUI/AAAAAAAAAT8/mUDkQ-9yb0033g3BKkGHm4LRe7eajWvcQCK4BGAYYCw/s150/Logo.png" alt="logo"/>
            </a>
         </div>
           <div className="m-cols-4 s-cols-4 m-cross-center s-main-center p-t-1 medio"><h3>Programa Ampliado de Inmunizaciones</h3> </div>
@@ -20,7 +20,7 @@ const Header = () => (
         <div className="s-x-6 s-cols-1 s-cross-center s-main-end header-links medio lg-x-6 lg-cols-1">
           <nav className="main-menu" id="main-menu">
             <ul>
-              <li><a href="/">Inicio</a></li>
+              <li><a href="/" className="link Nav s-column s-cross-center">Inicio</a></li>
               <li>< NavLink to="/ContactUs" exact="true" className="link Nav  s-column s-cross-center active Menu"  
               style={({ isActive }) => ({
                 color: isActive ? '#64922f' : '#545e6f',

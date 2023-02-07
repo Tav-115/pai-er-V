@@ -36,6 +36,7 @@ li {
     margin-top: 3em;
 }
 
+
 input:focus {
     outline:10px #64922f;
     border-color:  #64922f;
@@ -102,13 +103,19 @@ h2 {
     text-shadow: -2px 2px black;
     opacity: 0.7;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
 }
 
+/* .main-menu-recu:hover {
+    font-weight: bold;
+    border-color:  #64922f;
+} */
 
-.main-menu:hover{
-    background-color: #64922f;
 
+li:hover{
+    background-color:#64922f ;
+    color:aliceblue;
+    border-radius: 5px;
 }
  /* Menu desplegable lateral */
 .showColr {    
@@ -171,7 +178,6 @@ h2 {
   }
 
 .link {    
-    height: 30%;
     width: 100%;
 }
 
