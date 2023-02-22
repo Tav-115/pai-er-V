@@ -1,38 +1,37 @@
 
 .container-slider{
     position: relative;
-    width: 50%;
-    max-width: 400px;
+    width: calc(50%);
+    max-width: calc(400px);
     margin: auto;
     overflow: hidden;
-    border-radius: 3% ;
-    box-shadow: 0 0 0 0px #888,                 0 15px 50px;
-    
-    -webkit-border-radius: 3% ;
-    -moz-border-radius: 3% ;
-    -ms-border-radius: 3% ;
-    -o-border-radius: 3% ;
+    border-radius: calc(3%) ;
+    box-shadow: 0 0 0 0px #888, 0 15px 50px;
+    -webkit-border-radius: calc(3%) ;
+    -moz-border-radius: calc(3%) ;
+    -ms-border-radius: calc(3%) ;
+    -o-border-radius: calc(3%) ;
 }
 
 .slider{
     display: flex;
-    width: 400%;
-    margin-left: -100%;
+    width: calc(400%);
+    margin-left: calc(-100%);
     
     
 }
 
 .slider--section{
-    margin: 3%;
-    width: 100%;
-    height: 90%;
+    margin: calc(3%);
+    width: calc(100%);
+    height: calc(90%);
     
 }
 
 .slider--img{
     display: block;
-    width: 100%;
-    height: 100%;
+    width: calc(100%);
+    height: calc(100%);
     object-fit:contain;
 
 }
@@ -40,28 +39,26 @@
 .slider--btn{
     display: flex;
     position: absolute;
-    width: 14%;
-    height: 14%;
+    width: calc(14%);
+    height: calc(14%);
     background: #9ecc3b;
-    top: 45%;
+    top: calc(45%);
     transform: translateY(-50%);
-    font-size: 175%;
+    font-size: calc(175%);
     font-weight: bold;
     font-family: monospace;
-
     align-items: center;
     justify-content: center;
-   
-    border-radius: 10%;
+    border-radius: calc(10%);
     cursor: pointer;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+    -webkit-border-radius: calc(10%);
+    -moz-border-radius: calc(10%);
+    -ms-border-radius: calc(10%);
+    -o-border-radius: calc(10%);
 }
 
 .slider--btn:hover{
@@ -69,11 +66,11 @@
 }
 
 .slider--btn--right{
-    right: 10%;
+    right: calc(10%);
 }
 
 .slider--btn--left{
-    left: 10%;
+    left: calc(10%);
 }
 
 @keyframes palpi {
@@ -83,9 +80,9 @@
     from{ transform: scale(0.8); -webkit-transform: scale(0.8); -moz-transform: scale(0.8); -ms-transform: scale(0.8); -o-transform: scale(0.8); }
     50%{ transform:none; -webkit-transform:none; -moz-transform:none; -ms-transform:none; -o-transform:none; }
     to { transform:scale(0.8); -webkit-transform:scale(0.8); -moz-transform:scale(0.8); -ms-transform:scale(0.8); -o-transform:scale(0.8); }
-  }
-  
-  .atento{
+}
+
+.atento{
     animation: palpi 2s infinite;
     -webkit-animation: palpi 2s infinite;
 }
@@ -108,7 +105,7 @@
     
     position: fixed;
     z-index: 10;
-    max-width: 1200px !important;
+    max-width: calc(1200px) !important;
     opacity: 0.4;
     transition: all;
     transition-duration: 0.5s;
@@ -121,18 +118,18 @@
 }
 
 .caja-fija{
-    height: 8rem;
+    height: calc(8rem);
     
 }
 
 a.myanchor {
     display: block;
     position: relative;
-    top: -180px;
+    top: calc(-180px);
     visibility: hidden;
 }
 
 .small-espacio{
-    padding-top: 30px;
+    padding-top: calc(30px);
 } 
                             /* hasta aca */
