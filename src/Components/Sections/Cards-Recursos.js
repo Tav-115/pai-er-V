@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
 import RecursosCard from './Recursos-card';
 import CampNac from "../Sections/CampNac"
 import Covid from "../Sections/covid"
 
 const CardsRecursos = () => (
    <div>
-   {/* <div className="to-l main-menu-recu small" id="main-menu-recu">Listado de Recursos</div> */}
-
+   {/* <div className="to-l main-menu-recu small" id="Main-Menu-Recu">Listado de Recursos</div> */}
+   <button className="to-l main-menu-recu small" id="Main-Menu-Recu">Listado de Recursos</button>
+   
    <div className="small main-menu showColr-recu"  id="menu-recu" >
   <div className="ed-grid s-grid-2 fijo showColr-menu" id="recu">
       

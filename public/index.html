@@ -14,6 +14,7 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     
     <title>PAI - Programa Ampliado de Inmunizaciones Entre Rios</title>
+    
   </head>
   <body>
     <div id="root"></div>
@@ -21,17 +22,19 @@
   </body>
  <!-- Menu recursos -->
   <script> 
-    const despliegaMenu = document.getElementById("main-menu-recu");
+      const despliegaMenu = document.querySelector("#Main-Menu-Recu");
       const recu = document.getElementById ("recu")
       const menuRecu = document.getElementById("menu-recu");
-    
+      </script>
+
+    <script>
+      despliegaMenu.addEventListener('click', () =>{
+          menuRecu.classList.toggle("show-recu");
+    });
+
       recu.addEventListener("click",() => {
           menuRecu.classList.remove("show-recu");
       });
-    
-      despliegaMenu.addEventListener('click', () => {
-          menuRecu.classList.toggle("show-recu");
-    });
     </script>
           <!-- SLider -->
   <script>
