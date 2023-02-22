@@ -12,7 +12,7 @@ const Slider = () => (
         </div>
         <div className="slider--section box-shadow">         
                 <RecursosCard nombre="Manual Pfizer Bivariante" 
-                subt="(Adultos) Enero 2023"
+                subt="(Adultos) Enero 20"
                 image="https://drive.google.com/uc?export=download&id=10xj28_FwE_GosXMzB0M4x-98BlWRB_pv"
                 link="https://drive.google.com/file/d/10V80zkZ5Jl3iSq--uD8AFmtVtjqsmCnb/view?usp=sharing"/>
         </div>
