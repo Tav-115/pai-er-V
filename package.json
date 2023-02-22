@@ -21,9 +21,6 @@
     "sass-migrator": "^1.7.2",
     "web-vitals": "^1.0.1"
   },
-  "resolutions": {
-    "postcss-custom-properties": "^9.1.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build:staging": "env-cmd -f .env.staging npm run build",
