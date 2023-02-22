@@ -17,6 +17,15 @@
     
   </head>
   <body>
+    <script>
+    const safe = require('postcss-safe-parser')
+
+      const badCss = 'a {'
+      
+      postcss(plugins).process(badCss, { parser: safe }).then(result => {
+        result.css //= 'a {}'
+      })
+      </script>
     <div id="root"></div>
     
   </body>

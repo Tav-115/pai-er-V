@@ -31,13 +31,11 @@
 
   .menu { list-style : none }
 
-
   .link {
     color : black;
     &.active { color : cornflowerblue }
     @include from(lg) { color : rgb(8, 8, 8) }
   }
-
 
   .icon {
     --size : 1.5rem;
