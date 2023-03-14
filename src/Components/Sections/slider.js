@@ -5,6 +5,12 @@ const Slider = () => (
         <div className="slider " id="slider">
 
         <div className="slider--section box-shadow">         
+        <RecursosCard nombre="Guia Rápida Vacunación" 
+        subt="Antigripal 2023"
+        image="https://drive.google.com/uc?export=download&id=1aBb12sp4g295DTszlyV7ax_zqS7KI0n0"
+        link="https://drive.google.com/file/d/1NLmybYs_pCinOpGKEF0n5LyRtlTDzj6g/view?usp=sharing"/>
+        </div>
+        <div className="slider--section box-shadow">         
         <RecursosCard nombre="Manual Sputnik Ligth" 
         subt="(Adultos) febrero 2023"
         image="https://drive.google.com/uc?export=download&id=1XKy6Wc6eqk9u-g_eSBk6S-DvKFEROAdy"
@@ -22,19 +28,11 @@ const Slider = () => (
         image="https://drive.google.com/uc?export=download&id=1A4NcZTe-VOjyPzXlOkBgZuj-HxIOOjCm" 
         link="https://drive.google.com/file/d/1c34APdiDiCOXGWea00hXunlC-oxKqWKJ/view?usp=sharing"/>
         </div>
-        <div className="slider--section box-shadow">         
-        <RecursosCard nombre="Manual Seguridad Vacunas" 
-        subt="Febrero 2023"
-        image="https://drive.google.com/uc?export=download&id=13Vh-lGDrAk0DaulXshbl3P6a4I3tDhRU"
-        link="https://drive.google.com/file/d/13fYdVpalmZOKPNqvBxOS-KpMQF9F99it/view?usp=sharing"/>
-        </div>
+        
 
 </div>
 
 </div>
-      
-          
-    
 )
 export default Slider
 

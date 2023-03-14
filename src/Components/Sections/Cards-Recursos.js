@@ -296,6 +296,11 @@ const CardsRecursos = () => (
    <a name="Manuales" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
 
+      <RecursosCard nombre="Guia Rápida Vacunación" 
+      subt="Antigripal 2023"
+      image="https://drive.google.com/uc?export=download&id=1aBb12sp4g295DTszlyV7ax_zqS7KI0n0"
+      link="https://drive.google.com/file/d/1NLmybYs_pCinOpGKEF0n5LyRtlTDzj6g/view?usp=sharing"/>
+
       <RecursosCard nombre="Manual Sputnik Ligth" 
       subt="(Adultos) febrero 2023"
       image="https://drive.google.com/uc?export=download&id=1XKy6Wc6eqk9u-g_eSBk6S-DvKFEROAdy"
@@ -369,7 +374,7 @@ const CardsRecursos = () => (
    pages="1"
    link="https://drive.google.com/file/d/18bZYeDhRmjtQ-yGH43bPMBVHm1h4K3n_/view?usp=sharing"/>
 
-<RecursosCard nombre="Guia" 
+<RecursosCard nombre="Guia"
    subt="Rabia: Prevención, Vigilancia y Control."
    image="https://drive.google.com/uc?export=download&id=1w2oYCgGaWyO5EGu7wiNocAZ5zIpJfAvR" 
    pages="86"
