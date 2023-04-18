@@ -1,4 +1,4 @@
-
+import React from "react"
 const FormContact = () => (
     <div className="form">
         <form className="ed-container m-40 lg-to-center l-block" action="https://formsubmit.co/argusedufed@gmail.com" method="POST">

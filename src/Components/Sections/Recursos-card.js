@@ -1,3 +1,4 @@
+import React from "react"
 function RecursosCard (props) {
     return (
         <div className="ed-grid">

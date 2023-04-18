@@ -1,3 +1,4 @@
+import React from "react"
 const Banner = () => (
     <div className="main-banner img-container VerdeSalud diagonal">
       <div className="ed-grid lg-grid-6 ">

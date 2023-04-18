@@ -1,3 +1,5 @@
+import React from "react"
+
 import CSP from './CardSinPagina';
 
 const ActivPai = () => (

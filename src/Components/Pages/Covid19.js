@@ -1,3 +1,4 @@
+import React from "react"
 import Covid from "../Sections/covid"
 
 const Covid19 = () => (

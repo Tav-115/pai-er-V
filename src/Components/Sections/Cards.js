@@ -1,4 +1,5 @@
-    const Card = () => (
+import React from "react"
+const Card = () => (
     <div className="m-60 lg-to-center l-block">
         <article className="s-shadow-bottom">
             {/* <!--Contenedor de la imagen--> */}

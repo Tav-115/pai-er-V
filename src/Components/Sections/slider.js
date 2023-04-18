@@ -1,3 +1,4 @@
+import React from "react"
 import RecursosCard from "./Recursos-card"
 
 const Slider = () => (

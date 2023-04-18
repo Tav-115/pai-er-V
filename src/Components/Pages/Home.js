@@ -1,3 +1,4 @@
+import React from "react"
 import Banner from "../Sections/Banner"
 import CardsHome from "../Sections/Cards-Home"
 

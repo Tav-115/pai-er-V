@@ -1,3 +1,4 @@
+import React from "react"
 import Menvi from "../Sections/MsjEnviado"
 
 const Menv = () => (

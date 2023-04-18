@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import RecursosCard from './Recursos-card';
 import CampNac from "../Sections/CampNac"
 import Covid from "../Sections/covid"
