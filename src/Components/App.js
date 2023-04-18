@@ -12,7 +12,7 @@ import Activ from "./Pages/Activ"
 import Vac from "./Pages/Vacio"
 import Menv from "./Pages/Menv"
 import Campaña from "./Pages/CampañaNac"
-
+import React from "react"
 import {
       BrowserRouter as Router,
       Routes,
