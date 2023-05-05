@@ -427,6 +427,21 @@ const CardsRecursos = () => (
       <a name="Circulares" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
 
+      <RecursosCard nombre="Dosis de refuerzo contra COVID-19" 
+      subt="3-5-2023"
+      image="https://drive.google.com/uc?export=download&id=1Bq7Ve2Ir_fxjHN_pROrmnPEUUnKYURTi"
+      link="https://drive.google.com/file/d/1TqVShXC2a0oRbGPZx_TZsjpEDF6tF9-P/view?usp=sharing"/>
+
+      <RecursosCard nombre="Circular AG 5" 
+      subt="30/05/2023."
+      image="https://drive.google.com/uc?export=download&id=1VNqJeQogBljqxCUYO0wDlU4EIcsFEqsR"
+      link="https://drive.google.com/file/d/1RcuLGbp7geHrI8vjVxi9MK9GPZOvcmrf/view?usp=sharing"/>
+
+      <RecursosCard nombre="Circular AG 4" 
+      subt="CONSENTIMIENTO RECHAZO DE VACUNACIÓN"
+      image="https://drive.google.com/uc?export=download&id=1DpjPfItNvBiQ15IxiKLwBhoF6DoL7yFb"
+      link="https://drive.google.com/file/d/1zkBm6QVxdfLekT5aVmgNfF0l_YG4AUEp/view?usp=sharing"/>
+
       <RecursosCard nombre="Circular AG 1" 
       subt=" Registro de Dosis."
       image="https://drive.google.com/uc?export=download&id=19FWbcWlGM6A44TFBPJalPasecf1x8vbJ"
