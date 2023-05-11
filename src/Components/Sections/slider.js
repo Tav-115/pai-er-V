@@ -2,9 +2,23 @@ import React from "react"
 import RecursosCard from "./Recursos-card"
 
 const Slider = () => (
-     <div className="container-slider">
-        <div className="slider " id="slider">
-       
+<div className="container-slider">
+        <div className="slider" id="slider">
+
+        <div className="slider--section box-shadow">         
+        <RecursosCard nombre="Extensión de uso Pfizer" 
+        subt="5-5-2023"
+        image="https://drive.google.com/uc?export=download&id=1gcf3eOTSxpDuoQZWJy76V8qCLasVH3hZ"
+        link="https://drive.google.com/file/d/1-_y7sr529K7pUaBu-cBBK3QvihVHT_8y/view?usp=sharing"/>
+        </div>
+
+        <div className="slider--section box-shadow">         
+        <RecursosCard nombre="Disposición de extensión" 
+        subt="Pfizer/13-3-2023"
+        image="https://drive.google.com/uc?export=download&id=13BdlGdCv4LIgDWH835Et6ieuusZyrTZz"
+        link="https://drive.google.com/file/d/1hX-vODEW119zZfJaLaQDIYGggCoS0UFZ/view?usp=sharing"/>
+        </div>
+
         <div className="slider--section box-shadow">         
         <RecursosCard nombre="Circular AG 4" 
         subt="CONSENTIMIENTO RECHAZO DE VACUNACIÓN"
@@ -17,27 +31,13 @@ const Slider = () => (
         subt="30/05/2023."
         image="https://drive.google.com/uc?export=download&id=1VNqJeQogBljqxCUYO0wDlU4EIcsFEqsR"
         link="https://drive.google.com/file/d/1RcuLGbp7geHrI8vjVxi9MK9GPZOvcmrf/view?usp=sharing"/>
-        </div>
-                        
-        <div className="slider--section box-shadow">         
-        <RecursosCard nombre="Dosis de refuerzo contra COVID-19" 
-        subt="3-5-2023"
-        image="https://drive.google.com/uc?export=download&id=1Bq7Ve2Ir_fxjHN_pROrmnPEUUnKYURTi"
-        link="https://drive.google.com/file/d/1TqVShXC2a0oRbGPZx_TZsjpEDF6tF9-P/view?usp=sharing"/>
-        </div>
-
-        <div className="slider--section box-shadow">         
-        <RecursosCard nombre="Circular AG 3" 
-        subt="A partir del 14/04/23."
-        image="https://drive.google.com/uc?export=download&id=1T46pJYuAJ13nFfvkT5e8YdFMjI7CJkb1"
-        link="https://drive.google.com/file/d/1buQRVoCnLAAtmz6FYoNdfe6jtyNDXgNS/view?usp=sharing"/>
-        </div>
-        
+        </div>       
 
 </div>
 
 </div>
 )
+
 export default Slider
 
 
