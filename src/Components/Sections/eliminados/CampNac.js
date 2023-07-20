@@ -1,5 +1,5 @@
     import React from 'react';
-    import RecursosCard from './Recursos-card';
+    import RecursosCard from '../Recursos-card';
     
     const CampNac = () => (
     <div>

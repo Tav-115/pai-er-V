@@ -1,6 +1,7 @@
+import Slider from "./slider"
 import React from "react"
 import { NavLink } from "react-router-dom"
-import Slider from "./slider"
+
 const CardsHome = () => (
 <div  className="ed-grid lg-grid-1">
   <div className="ed-grid lg-grid-2 s-grid-1 gap-1 l-block m-grid-2 row-gap">
@@ -11,22 +12,16 @@ const CardsHome = () => (
                     </div>
                   </div> 
               
-                                  <div className="card oF">
-                <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
-                    <img src="https://drive.google.com/uc?export=download&id=1VkP35CaSoccyYFqjbMjuzquwPefzIbCW" /></div>
-                <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">               
-                  <div className="s-mb-2 s-main-center card__teachers">                 
-                  </div>
-                  <div className="s-main-center"><a className="button VerdeSaludClaro button--tiny" href="Camp">Campaña Nacional de Seguimiento 2022</a></div>
-                </div>
-              </div>
+                                  
 
 
-              <div className="card "> <div ><h2 className="atento"> Novedades</h2></div>
-                  <div className="img-container"><div className="slider--btn slider--btn--right" id="btn--right">&#62;</div>
-        <div className="slider--btn slider--btn--left" id="btn--left">&#60;</div>
+              <div className="card "> 
+                        <div ><h2 className="atento"> Novedades</h2></div>
+                        <div className="img-container">
+                          <div className="slider--btn slider--btn--right" id="btn--right">&#62;</div>
+                          <div className="slider--btn slider--btn--left" id="btn--left">&#60;</div>
                   <Slider/>
-                  </div> 
+              </div> 
               </div>
 
                   <div className="card">

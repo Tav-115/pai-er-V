@@ -103,13 +103,24 @@ h2 {
     opacity: 0.7;
     position: fixed;
     z-index: 10;
+    
 }
 
+.main-menu li{
+    padding: 2px;
+}
 
-.main-menu:hover{
+.main-menu li:hover{
     background-color: #64922f;
-
+    
+    border-radius: 3px;
+    color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
+
  /* Menu desplegable lateral */
 .showColr {    
     background-color: #64922f;
@@ -166,9 +177,9 @@ h2 {
 }
  /* Menu desplegable lateral */
 .NavR:hover {
-      background-color: #9ecc3b;
-      text-shadow: 1px 1px black;    
-  }
+background-color: #9ecc3b;
+text-shadow: 1px 1px black;    
+}
 
 .link {    
     height: 30%;

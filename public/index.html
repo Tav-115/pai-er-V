@@ -12,7 +12,6 @@
     <link rel="apple-touch-icon" href="../Icono Pai.jpg" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
     
     <title>PAI - Programa Ampliado de Inmunizaciones Entre Rios</title>
   </head>
@@ -20,91 +19,92 @@
     <div id="root"></div>
     
   </body>
+    
  <!-- Menu recursos -->
-  <script> 
-    const despliegaMenu = document.getElementById("main-menu-recu");
-      const recu = document.getElementById ("recu")
-      const menuRecu = document.getElementById("menu-recu");
-    
-      recu.addEventListener("click",() => {
-          menuRecu.classList.remove("show-recu");
-      });
-    
-      despliegaMenu.addEventListener('click', () => {
-          menuRecu.classList.toggle("show-recu");
+ <script> 
+  const despliegaMenu = document.getElementById("main-menu-recu");
+    const recu = document.getElementById ("recu")
+    const menuRecu = document.getElementById("menu-recu");
+  
+    recu.addEventListener("click",() => {
+        menuRecu.classList.remove("show-recu");
     });
-    </script>
-          <!-- SLider -->
-  <script>
+  
+    despliegaMenu.addEventListener('click', () => {
+        menuRecu.classList.toggle("show-recu");
+  });
+  </script>
+        <!-- SLider -->
+<script>
+  let sliderMov = document.querySelector('#slider');
+  
+  let sliderSection = document.querySelectorAll('.slider--section');
+  
+  let sliderSectionLast = sliderSection[sliderSection.length-1];
+  
+  const btnLeft=document.querySelector('#btn--left');
+  const btnRight=document.querySelector('#btn--right');
   
 
-    const sliderMov = document.querySelector("#slider");
-    
-    let sliderSection = document.querySelectorAll (".slider--section");
-    
-    let sliderSectionLast = sliderSection[sliderSection.length-1];
-    
-    const btnLeft = document.querySelector("#btn--left");
-    const btnRight = document.querySelector("#btn--right");
-    
-    sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast) ;
-    
-    
-    function moveDerecha(){
-        let sliderSectionFirst = document.querySelectorAll(".slider--section")[0];
-        sliderMov.style.marginLeft = "-200%";
-        sliderMov.style.transition = "all 0.3s";
-        setTimeout(function(){
-            sliderMov.style.transition = "none";
-            sliderMov.insertAdjacentElement('beforeend', sliderSectionFirst);
-            sliderMov.style.marginLeft = "-100%";
-        }, 300);
-        
-    }
-    
-    btnRight.addEventListener('click', function() {
-        moveDerecha();
-    }); 
-    
-    function moveIzquierda(){
-        let sliderSection = document.querySelectorAll (".slider--section");
-        let sliderSectionLast = sliderSection[sliderSection.length-1];
-        sliderMov.style.marginLeft = "0";
-        sliderMov.style.transition = "all 0.5s";
-        setTimeout(function(){
-            sliderMov.style.transition = "none";
-            sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast);
-            sliderMov.style.marginLeft = "-100%";
-        }, 500);
-        
-    }
-    
-    btnLeft.addEventListener('click', function() {
-        moveIzquierda();
-    }); 
-    
-    setInterval(function(){
-        moveDerecha();
-        
-    }, 4000);
-    </script>
-    
-    <!-- Menu desplegable lateral -->
+  sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast);
+  console.log(sliderMov);
+  
+  
+  function moveDerecha(){
+      let sliderSectionFirst = document.querySelectorAll(".slider--section")[0];
+      sliderMov.style.marginLeft = "-200%";
+      sliderMov.style.transition = "all 0.3s";
+      setTimeout(function(){
+          sliderMov.style.transition = "none";
+          sliderMov.insertAdjacentElement('beforeend', sliderSectionFirst);
+          sliderMov.style.marginLeft = "-100%";
+      }, 300);
+      
+  }
+  
+  btnRight.addEventListener('click', function() {
+      moveDerecha();
+  }); 
+  
+  function moveIzquierda(){
+      let sliderSection = document.querySelectorAll (".slider--section");
+      let sliderSectionLast = sliderSection[sliderSection.length-1];
+      sliderMov.style.marginLeft = "0";
+      sliderMov.style.transition = "all 0.5s";
+      setTimeout(function(){
+          sliderMov.style.transition = "none";
+          sliderMov.insertAdjacentElement('afterbegin', sliderSectionLast);
+          sliderMov.style.marginLeft = "-100%";
+      }, 500);
+      
+  }
+  
+  btnLeft.addEventListener('click', function() {
+      moveIzquierda();
+  }); 
+  
+  setInterval(function(){
+      moveDerecha();
+      
+  }, 2000);
+  </script>
+  
+  <!-- Menu desplegable lateral -->
 
-  <script>
-    const BtMenu = document.getElementById("main-menu-toggles");
-    const navM = document.getElementById ("navM")
-    const menu = document.getElementById("main-menus");
+<script>
+  const BtMenu = document.getElementById("main-menu-toggles");
+  const navM = document.getElementById ("navM")
+  const menu = document.getElementById("main-menus");
 
-    navM.addEventListener("click", () => {
-        menu.classList.remove("show");
+  navM.addEventListener("click", () => {
+      menu.classList.remove("show");
 });
 </script>
-  <script>
-    
-    BtMenu.addEventListener("click", () => {
-        menu.classList.toggle("show");
+<script>
+  
+  BtMenu.addEventListener("click", () => {
+      menu.classList.toggle("show");
 });
 </script>
-<div id="sfckhzsw4mwedyuuklwjjamjjyh7mkc23dh"></div><script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=khzsw4mwedyuuklwjjamjjyh7mkc23dh&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contadores de visitas"><img src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=khzsw4mwedyuuklwjjamjjyh7mkc23dh" border="0" title="contadores de visitas" alt="contadores de visitas"></a></noscript>
+
 </html>
