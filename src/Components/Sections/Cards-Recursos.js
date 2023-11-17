@@ -54,7 +54,7 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Lineamientos" className="myanchor"></a> 
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2> 
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'> Lineamientos Técnicos</h2> 
 
       <RecursosCard nombre="Lineamientos Técnicos." 
       subt="Sarampion, Rubeola, Paperas y Poliomielitis."
@@ -119,9 +119,14 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Memos" className="myanchor"></a> 
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'>Memos</h2>           
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'>Memos</h2>           
 
-      
+<RecursosCard nombre="REGLAMENTACIÓN DE LA LEY N° 27.491" 
+   subt="ANEXO 28/8/23"
+   image="https://drive.google.com/uc?export=download&id=1vghkDakuOEjRmsaIQGY4vI2lRSFL-fkO" 
+   pages="1"
+   link="https://drive.google.com/file/d/1WiSx4hN25nwbK7C0GjrfNgIhoiCL3KMX/view?usp=sharing"/>
+
 <RecursosCard nombre="MEMO VPH dos Dosis" 
    subt="2015."
    image="https://drive.google.com/uc?export=download&id=1w3NFWfdapj5p_RuaKuZgBSq_Mo9dgWxp" 
@@ -151,7 +156,7 @@ const CardsRecursos = () => (
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Manuales" className="myanchor"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'> Manuales y Guias</h2> 
 
       <RecursosCard nombre="Guia Rápida Vacunación" 
       subt="Antigripal 2023"
@@ -173,13 +178,8 @@ const CardsRecursos = () => (
    image="https://drive.google.com/uc?export=download&id=1f7j8iOtkFnsmCNg2_c4j5Pn-REdAzOGk" 
    pages="3"
    link="https://drive.google.com/file/d/193L2ogmj6F2bKaizQpZY5xs0yFvMXAws/view?usp=sharing"/>
-            
-      <RecursosCard nombre="Guia Rápida" 
-   subt="Vacunación Gripe 2022"
-   image="https://drive.google.com/uc?export=download&id=1HTXC9JrSEkTadmhHU2tPMe0tq-_fGG6M" 
-   pages="20"
-   link="https://drive.google.com/file/d/1eQRND35lNkr3_rNMomWyk6LCXIMgHl_a/view?usp=sharing"/>
-        
+ 
+
       <RecursosCard nombre="Plan de contingencia" 
    subt="Ante corte suministro eléctrico."
    image="https://drive.google.com/uc?export=download&id=1MrC5s1edl57K4EaFvUnLIW6fM9FOGUjZ" 
@@ -216,58 +216,15 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Circulares" className="myanchor"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
-
-      <RecursosCard nombre="Circular AG 5" 
-      subt="30/05/2023."
-      image="https://drive.google.com/uc?export=download&id=1VNqJeQogBljqxCUYO0wDlU4EIcsFEqsR"
-      link="https://drive.google.com/file/d/1RcuLGbp7geHrI8vjVxi9MK9GPZOvcmrf/view?usp=sharing"/>
-
-      <RecursosCard nombre="Circular AG 4" 
-      subt="CONSENTIMIENTO RECHAZO DE VACUNACIÓN"
-      image="https://drive.google.com/uc?export=download&id=1DpjPfItNvBiQ15IxiKLwBhoF6DoL7yFb"
-      link="https://drive.google.com/file/d/1zkBm6QVxdfLekT5aVmgNfF0l_YG4AUEp/view?usp=sharing"/>
-
-      <RecursosCard nombre="Circular AG 1" 
-      subt=" Registro de Dosis."
-      image="https://drive.google.com/uc?export=download&id=19FWbcWlGM6A44TFBPJalPasecf1x8vbJ"
-      link="https://drive.google.com/file/d/1esiwVnbMO3F2_Ro0CJF8rCO9r9zzQ_hs/view?usp=sharing"/>
-      
-      <RecursosCard nombre="Circular AG 2" 
-      subt="A partir del 31/03/2023."
-      image="https://drive.google.com/uc?export=download&id=1B3ztR66esBTIRLoFjhEBR8_Zk0Yl0kcH"
-      link="https://drive.google.com/file/d/1axHwL-uO-7fM1A-5Nac4dfGcY6f9IXJm/view?usp=sharing"/>
-      
-      <RecursosCard nombre="Circular AG 3" 
-      subt="A partir del 14/04/23."
-      image="https://drive.google.com/uc?export=download&id=1T46pJYuAJ13nFfvkT5e8YdFMjI7CJkb1"
-      link="https://drive.google.com/file/d/1buQRVoCnLAAtmz6FYoNdfe6jtyNDXgNS/view?usp=sharing"/>
-      
-      <RecursosCard nombre="Antigripal" 
-   subt="28-03-2022"
-   image="https://drive.google.com/uc?export=download&id=1rhA7frzHJ0N_u1_Zn4g_V__Q1kRx6rpy" 
-   pages="1"
-   link="https://drive.google.com/file/d/1HW0DcMNfo1eh1nbPi8QWG_4yrmwxEDQX/view?usp=sharing"/>
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'> Circulares</h2>      
 
       
-      <RecursosCard nombre="Pautas Vacunación Antigripal" 
-   subt="21-03-2022"
-   image="https://drive.google.com/uc?export=download&id=1G4qS4z7aafCQ3yaLY0O9xKkf9dt6p9FD" 
-   pages="1"
-   link="https://docs.google.com/document/d/1I7zy5DHsHx1XGW-ujhobYUL5VoUPJlic/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
-
 
    </div>
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Notas" className="myanchor"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Notas y resoluciones </h2>  
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'> Notas y resoluciones </h2>  
 
-      <RecursosCard nombre="Anmat- Antigripal" 
-   subt="Mayores de 65 años."
-   image="https://drive.google.com/uc?export=download&id=1oDO3Wqm8umKBMEmhR6s2V_4L7AtjcRrt" 
-   pages="3"
-   link="https://drive.google.com/file/d/1d4m4U8HPMC9o78k-blSs1keLb8mNrTTA/view?usp=sharing"/> 
-            
       <RecursosCard nombre="Nota" 
    subt="VPH."
    image="https://drive.google.com/uc?export=download&id=1GSqKN8FnJ306tt-48VaQcWu8AlME2Gbs" 
@@ -285,7 +242,7 @@ const CardsRecursos = () => (
 
    <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
    <a name="Plantillas" className="myanchor"></a>
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Formularios y Planillas </h2> 
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'> Formularios y Planillas </h2> 
 
       <RecursosCard nombre="Carnet Fiebre Amarilla" 
    subt="Para Imprimir"
@@ -341,11 +298,6 @@ const CardsRecursos = () => (
    pages="1"
    link="https://drive.google.com/file/d/1gHMhphAGGBZ39koA51BIqYYlOAFPdBWk/view?usp=sharing"/>
 
-<RecursosCard nombre="Planilla de Pedido de Insumos" 
-   subt=""
-   image="https://drive.google.com/uc?export=download&id=18c017KJOOhugoHuD-gchIEe1WcFxCGXB" 
-   pages="3"
-   link="https://docs.google.com/document/d/166EjZuHDF8C4QxkUV6upLq6WUPhESpyT/edit?usp=sharing&ouid=116373942796959660147&rtpof=true&sd=true"/>
 
 <RecursosCard nombre="Instructivo ESAVI" 
    subt=""

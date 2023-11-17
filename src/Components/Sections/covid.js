@@ -16,6 +16,7 @@ import RecursosCard from './Recursos-card';
                         <a className="button light-color " href="#Manuales">Manuales</a>
             <a className="button light-color " href="#Circulares">Circulares</a>
             <a className="button light-color " href="#Notas">Notas/Res.</a>
+            <a className="button light-color " href="#Plantillas">Formularios</a>
 
             </div>
          </div> 
@@ -24,6 +25,16 @@ import RecursosCard from './Recursos-card';
         {/* Extensiones */}
       <a name="extensiones" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Extensiones de vacunas COVID</h2>   
+      
+      <RecursosCard nombre="Extensión PFIZER BIVALENTE" 
+   subt="2-1-2023"
+   image="https://drive.google.com/uc?export=download&id=1aNJQwxnLqaH1FqyK2iRGvnPzduHUUXDI"
+   link="https://drive.google.com/file/d/1aeGQFSuJQ6J6DlWVfxVsNN_6XMW3kLtA/view?usp=sharing"/>
+
+      <RecursosCard nombre="Extensión SPIKEVAX BIVALENTE" 
+   subt="22-8-2023"
+   image="https://drive.google.com/uc?export=download&id=1kvhsrCNZvlUEFQOigHI_DLzvSv4RFnxN"
+   link="https://drive.google.com/file/d/1crGUEfjpLDUzN-84YmvHB-P_ycQJb1R5/view?usp=sharing"/>
 
       <RecursosCard nombre="Extensión de uso Pfizer" 
    subt="5-5-2023"
@@ -170,6 +181,11 @@ import RecursosCard from './Recursos-card';
       <a name="Memos" className="myanchor"></a> 
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'>Memos</h2>           
 
+      <RecursosCard nombre="Uso de vacuna bivariante" 
+   subt="Spikevax 22-8-23"
+   image="https://drive.google.com/uc?export=download&id=12fuhX-YfvSiTU8kOsK0wlehWWLnytNlz"
+   link="https://drive.google.com/file/d/1WQ7vXck-7iPJYM-XziVoFIxUwpQS2ydg/view?usp=sharing"/>
+
       <RecursosCard nombre="Memo uso Mod Pediátrica" 
    subt="Dosis/Grupo poblacional"
    image="https://drive.google.com/uc?export=download&id=1v0hUjwWRpb1duPcGEAIVggIDFd1ATtrh"
@@ -186,8 +202,13 @@ import RecursosCard from './Recursos-card';
    <a name="Manuales" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Manuales y Guias</h2> 
 
+      <RecursosCard nombre="Manual Spikevax / Pfizer" 
+      subt="Septiembre 2023"
+      image="https://drive.google.com/uc?export=download&id=1WYpXNernsNjRkTc_6DFi8YdbpDDpBt1g"
+      link="https://drive.google.com/file/d/1mF3IKiKg__-DSk56VQvA0X_-O-3-bhuG/view?usp=sharing"/>
+      
       <RecursosCard nombre="Manual Sputnik Ligth" 
-      subt="(Adultos) febrero 2023"
+      subt="Febrero 2023"
       image="https://drive.google.com/uc?export=download&id=1XKy6Wc6eqk9u-g_eSBk6S-DvKFEROAdy"
       link="https://drive.google.com/file/d/1rlf8AThX-uL07iR7y3SuovGUibpCWLqQ/view?usp=sharing"/>
       
@@ -317,8 +338,17 @@ import RecursosCard from './Recursos-card';
    pages="1"
    link="https://drive.google.com/file/d/1sVr2wWXIvrhl1XXX5DrmCKZldx_skvkf/view?usp=sharing"/>
 
-   
- 
+   </div>
+
+   <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
+   <a name="Plantillas" className="myanchor"></a>
+      <h2 className='s-cols-2 m-cols-2 xl-cols-6'> Formularios y Planillas </h2> 
+
+      <RecursosCard nombre="Registro vacunas Covid-19 Nomivac" 
+   subt="Con lotes vencidos"
+   image="https://drive.google.com/uc?export=download&id=1aFe4hv1vMvSGo5rhmGhgUtkSnQl4ccCz"
+   link="https://drive.google.com/file/d/1aFe4hv1vMvSGo5rhmGhgUtkSnQl4ccCz/view?usp=sharing"/>          
+
    </div>                    
    
    <div className="ed-grid s-grid-1 lg-grid-2 xl-grid-2">

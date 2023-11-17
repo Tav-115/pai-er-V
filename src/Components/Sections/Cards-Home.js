@@ -105,6 +105,13 @@ const CardsHome = () => (
                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                 </div>
             </div> 
+            <h3 className="small center"> Poliomielitis </h3>
+                <div className="small center ed-grid">
+                <div className=" s-radius-tr s-radius-tl center"></div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="471" height="837" src="https://www.youtube.com/embed/-lBxP_-G5kk" title="Polio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                </div>
+                </div>
 
               <h3 className="small center"> Feliz Día </h3>
             <div className="card small">
@@ -142,6 +149,13 @@ const CardsHome = () => (
                 </div>
                 <div className=" s-radius-tr s-radius-tl">
                 <iframe width="100%" height="270" src="https://www.youtube.com/embed/V15iMEDVQ0M" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> 
+                </div>
+                </div>
+                <h3 className="medio center"> Poliomielitis </h3>
+                <div className="medio center ed-grid">
+                <div className=" s-radius-tr s-radius-tl center"></div>
+                <div className=" s-radius-tr s-radius-tl">
+                <iframe width="471" height="837" src="https://www.youtube.com/embed/-lBxP_-G5kk" title="Polio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
                 </div>
               </div>
                 <h3 className="medio center"> Feliz Día!!</h3>
